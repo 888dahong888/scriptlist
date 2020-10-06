@@ -1,7 +1,7 @@
 import threading, cv2
 import time
 
-
+#用于对rtsp流读取
 class Stack:
 
     def __init__(self, stack_size):
